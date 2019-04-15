@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT Adresar (Osoba+,Kompanija+)>
+
+<!ELEMENT Osoba (PunoIme,DatumRođenja,Adresa,Telefon,Email+)>
+<!ATTLIST Osoba šifra ID #REQUIRED>
+<!ELEMENT Kompanija (Naziv,Adresa,Telefon,Email+)>
+<!ATTLIST Kompanija šifra ID #REQUIRED>
+
+<!ELEMENT PunoIme (Ime,SrednjeIme?,Prezime+)>
+<!ELEMENT Ime (#PCDATA)>
+<!ELEMENT SrednjeIme (#PCDATA)>
+<!ELEMENT Prezime (#PCDATA)>
+
+<!ELEMENT DatumRođenja (Dan,Mesec,Godina)>
+<!ELEMENT Dan (#PCDATA)>
+<!ELEMENT Mesec (#PCDATA)>
+<!ELEMENT Godina (#PCDATA)>
+
+<!ELEMENT Adresa (Ulica,Broj,Grad,Država?)>
+<!ATTLIST Adresa tip (privremena|stalna) "privremena">
+<!ELEMENT Ulica (#PCDATA)>
+<!ELEMENT Broj (#PCDATA)>
+<!ELEMENT Grad (#PCDATA)>
+<!ELEMENT Država (#PCDATA)>
+
+<!ELEMENT Telefon (#PCDATA)>
+<!ATTLIST Telefon broj (mobilni|fiksni) #REQUIRED>
+<!ELEMENT Email (#PCDATA)>
+<!ATTLIST Email mail (privatni|službeni) #REQUIRED>
+<!ELEMENT Naziv (#PCDATA)>
