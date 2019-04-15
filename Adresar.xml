@@ -10,12 +10,12 @@
     </PunoIme>
     <DatumRođenja>
       <Dan>5</Dan>
-      <Mesec>11</Mesec>
+      <Mesec>9</Mesec>
       <Godina>1995</Godina>
     </DatumRođenja>
     <Adresa tip="privremena">
       <Ulica>Vojvode Stepe</Ulica>
-      <Broj>23</Broj>
+      <Broj>20</Broj>
       <Grad>Beograd</Grad>
       <Država>Srbija</Država>
     </Adresa>
