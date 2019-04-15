@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Adresar SYSTEM "Adresar.dtd">
+<Adresar xmlns="http://viser.edu.rs/borivojenrt416 Adresar.xsd">
+  <Osoba šifra="000">
+    <PunoIme>
+      <Ime>Milan</Ime>
+      <SrednjeIme>S</SrednjeIme>
+      <Prezime>Pavlović</Prezime>
+      <Prezime>Petrović</Prezime>
+    </PunoIme>
+    <DatumRođenja>
+      <Dan>5</Dan>
+      <Mesec>11</Mesec>
+      <Godina>1995</Godina>
+    </DatumRođenja>
+    <Adresa tip="privremena">
+      <Ulica>Vojvode Stepe</Ulica>
+      <Broj>23</Broj>
+      <Grad>Beograd</Grad>
+      <Država>Srbija</Država>
+    </Adresa>
+    <Telefon broj="mobilni">062/394-885</Telefon>
+    <Email mail="privatni">milanpavlovic@gmail.com</Email>
+    <Email mail="privatni">milan@gmail.com</Email>
+    <Email mail="službeni">milanp@yahoo.com</Email>
+    <Email mail="privatni">mipavlovic@gmail.com</Email>
+  </Osoba>
+  <Osoba šifra="001">
+    <PunoIme>
+      <Ime>Luna</Ime>
+      <Prezime>Mitrović</Prezime>
+    </PunoIme>
+    <DatumRođenja>
+      <Dan>17</Dan>
+      <Mesec>4</Mesec>
+      <Godina>1991</Godina>
+    </DatumRođenja>
+    <Adresa>
+      <Ulica>Topolska</Ulica>
+      <Broj>18</Broj>
+      <Grad>Beograd</Grad>
+    </Adresa>
+    <Telefon broj="fiksni">011/390-441</Telefon>
+    <Email mail="privatni">lunamitrovic9@gmail.com</Email>
+    <Email mail="privatni">lunam@gmail.com</Email>
+    <Email mail="privatni">mitrovicluna@gmail.com</Email>
+  </Osoba>
+  <Osoba šifra="002">
+    <PunoIme>
+      <Ime>Marko</Ime>
+      <SrednjeIme>N</SrednjeIme>
+      <Prezime>Marković</Prezime>
+    </PunoIme>
+    <DatumRođenja>
+      <Dan>9</Dan>
+      <Mesec>6</Mesec>
+      <Godina>1999</Godina>
+    </DatumRođenja>
+    <Adresa tip="stalna">
+      <Ulica>Kružna</Ulica>
+      <Broj>3</Broj>
+      <Grad>Novi Sad</Grad>
+      <Država>Srbija</Država>
+    </Adresa>
+    <Telefon broj="mobilni">063/330-998</Telefon>
+    <Email mail="službeni">markomarkovic@yahoo.com</Email>
+  </Osoba>
+  <Kompanija šifra="111">
+    <Naziv>Lidl</Naziv>
+    <Adresa tip="stalna">
+      <Ulica>Vojvode Stepe</Ulica>
+      <Broj>81</Broj>
+      <Grad>Beograd</Grad>
+      <Država>Srbija</Država>
+    </Adresa>
+    <Telefon broj="mobilni">062/222-111</Telefon>
+    <Email mail="službeni">lidlsrbija@gmail.com</Email>
+    <Email mail="službeni">lidlsrb@gmail.com</Email>
+  </Kompanija>
+  <Kompanija šifra="112">
+    <Naziv>Nordeus</Naziv>
+     <Adresa tip="stalna">
+      <Ulica>Bulevar Mihajla Pupina</Ulica>
+      <Broj>165</Broj>
+      <Grad>Beograd</Grad>
+    </Adresa>
+    <Telefon broj="fiksni">011/222-543</Telefon>
+    <Email mail="službeni">nordeusserbia@gmail.com</Email>
+  </Kompanija>
+  <Kompanija šifra="113">
+    <Naziv>NCR</Naziv>
+     <Adresa>
+      <Ulica>Milentija Popovića</Ulica>
+      <Broj>5A</Broj>
+      <Grad>Beograd</Grad>
+      <Država>Srbija</Država>
+    </Adresa>
+    <Telefon broj="fiksni">011/222-880</Telefon>
+    <Email mail="službeni">ncrcorporation@gmail.com</Email>
+    <Email mail="službeni">ncrsrbija@gmail.com</Email>
+    <Email mail="službeni">ncrcsrbb@gmail.com</Email>
+  </Kompanija>
+</Adresar>
