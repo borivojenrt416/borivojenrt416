@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE Adresar SYSTEM "Adresar.dtd">
 <Adresar xmlns="http://viser.edu.rs/borivojenrt416 Adresar.xsd">
-  <Osoba šifra="000">
+  <Osoba šifra="_000">
     <PunoIme>
       <Ime>Milan</Ime>
       <SrednjeIme>S</SrednjeIme>
@@ -25,7 +25,7 @@
     <Email mail="službeni">milanp@yahoo.com</Email>
     <Email mail="privatni">mipavlovic@gmail.com</Email>
   </Osoba>
-  <Osoba šifra="001">
+  <Osoba šifra="_001">
     <PunoIme>
       <Ime>Luna</Ime>
       <Prezime>Mitrović</Prezime>
@@ -45,7 +45,7 @@
     <Email mail="privatni">lunam@gmail.com</Email>
     <Email mail="privatni">mitrovicluna@gmail.com</Email>
   </Osoba>
-  <Osoba šifra="002">
+  <Osoba šifra="_002">
     <PunoIme>
       <Ime>Marko</Ime>
       <SrednjeIme>N</SrednjeIme>
@@ -65,7 +65,7 @@
     <Telefon broj="mobilni">063/330-998</Telefon>
     <Email mail="službeni">markomarkovic@yahoo.com</Email>
   </Osoba>
-  <Kompanija šifra="111">
+  <Kompanija šifra="_111">
     <Naziv>Lidl</Naziv>
     <Adresa tip="stalna">
       <Ulica>Vojvode Stepe</Ulica>
@@ -77,7 +77,7 @@
     <Email mail="službeni">lidlsrbija@gmail.com</Email>
     <Email mail="službeni">lidlsrb@gmail.com</Email>
   </Kompanija>
-  <Kompanija šifra="112">
+  <Kompanija šifra="_112">
     <Naziv>Nordeus</Naziv>
      <Adresa tip="stalna">
       <Ulica>Bulevar Mihajla Pupina</Ulica>
@@ -87,7 +87,7 @@
     <Telefon broj="fiksni">011/222-543</Telefon>
     <Email mail="službeni">nordeusserbia@gmail.com</Email>
   </Kompanija>
-  <Kompanija šifra="113">
+  <Kompanija šifra="_113">
     <Naziv>NCR</Naziv>
      <Adresa>
       <Ulica>Milentija Popovića</Ulica>
